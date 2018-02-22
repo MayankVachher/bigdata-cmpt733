@@ -239,13 +239,13 @@ def crowdsourcing(pair):
         true_matches = json.load(f)
         id1, id2 = str(pair[0][0]), str(pair[1][0])
         print('\x1b[1;31m'+'Are they matching?'+'\x1b[0m')
-        print pair[0]
-        print pair[1]
+        print(pair[0])
+        print(pair[1])
         if [id1, id2] in true_matches or [id2, id1] in true_matches:
             is_match = True
         time.sleep(1)
-    print '\x1b[1;31m'+'Answer: %s' %("Yes" if is_match else "No") +'\x1b[0m'
-    print
+    print('\x1b[1;31m'+'Answer: %s' %("Yes" if is_match else "No") +'\x1b[0m')
+    print()
     return is_match
 
 def crowdsourcing_fast(pair):
