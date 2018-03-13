@@ -1,0 +1,14 @@
+Subject: Parameter Tuning for anomaly detection
+
+Hi Nick,
+
+I was wondering if we could do some really quick and dirty visualizations of the dataset using dimensionality reduction so as to understand the possible number of clusters. This shall give us a rough idea about how the range of values for k in the program should vary with respect to the data we have. We don't want the number of clusters to be too small or too big since a lot information can be lost. Can't really say much till I get a look at the visualizations.
+
+Post that we can possibly take the cluster assignments and score values and attach them to the visualizations we would have had. We could then figure out the threshold t. It should ideally not be below 0.95.
+
+Can we do the basic visualizations by the end of this week so that more deeper understanding can be got about the attacks?
+
+Let me know if you need any help or have any doubts.
+
+Best,
+Mayank
